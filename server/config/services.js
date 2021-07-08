@@ -43,22 +43,22 @@
 module.exports = {
   service1: {
     api: '/qa',
-    url: 'http://localhost:3001',
+    url: 'https://gentle-thicket-83951.herokuapp.com/',
     bundle: 'app.js',
   },
   service2: {
     api: '/overview',
-    url: 'http://localhost:3002',
+    url: 'https://protected-anchorage-43789.herokuapp.com/',
     bundle: 'app.js',
   },
   service3: {
     api: '/reviews',
-    url: 'http://localhost:3003',
+    url: 'https://sleepy-brushlands-46977.herokuapp.com/',
     bundle: 'app.js',
   },
   service4: {
     api: '/products',
-    url: 'http://localhost:3004',
+    url: 'https://rocky-journey-01054.herokuapp.com/',
     bundle: 'app.js',
   },
 };

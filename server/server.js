@@ -16,7 +16,7 @@ app.get('/info', (req, res) => {
 
 app.use('/overview',
   createProxyMiddleware({
-    target: 'http://localhost:3002',
+    target: 'https://protected-anchorage-43789.herokuapp.com/',
     changeOrigin: true,
   }));
 
