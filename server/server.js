@@ -22,19 +22,19 @@ app.use('/overview',
 
 app.use('/qa',
   createProxyMiddleware({
-    target: 'http://localhost:3001',
+    target: 'https://gentle-thicket-83951.herokuapp.com/',
     changeOrigin: true,
   }));
 
 app.use('/products',
   createProxyMiddleware({
-    target: 'http://localhost:3004',
+    target: 'https://rocky-journey-01054.herokuapp.com/',
     changeOrigin: true,
   }));
 
 app.use('/reviews',
   createProxyMiddleware({
-    target: 'http://localhost:3003',
+    target: 'https://sleepy-brushlands-46977.herokuapp.com/',
     changeOrigin: true,
   }));
 
